@@ -18,10 +18,13 @@
            <li class="nav-item"><?php echo "<a class='nav-link active text-white menu-item p-2 text-center' aria-current='page' href='../adm.php'>Lista de Usuario</a>" ?>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white menu-item p-2  text-center" href="#">Altas</a>
+            <a class="nav-link text-white menu-item p-2  text-center" href="altas.php">Altas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white menu-item p-2 text-center" href="docu.php">Documentación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white menu-item p-2 text-center" href="#">Facultad</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white menu-item p-2 text-center" href="../ip.php">Datos Conexión</a>
