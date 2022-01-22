@@ -7,6 +7,6 @@
      <title>Facultades</title>
 </head>
 <body>
-     <h2>Facultades</h2>
+     <h1>Facultades</h1>
 </body>
 </html>
