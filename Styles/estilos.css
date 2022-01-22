@@ -1,0 +1,150 @@
+html{
+     font-size: 12px;
+}
+
+.fondo{
+     background-color: #1C3D6C !important;
+}
+
+.titulologin{
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+     border-bottom: 7px solid #C5911E;
+}
+
+.menu-item {
+     display: inline-block;
+     margin: 10px;
+     border-radius: 5px;     
+     font-size: 1.3rem;
+     
+}
+.menu-item:hover:not(.cerrar){
+     background-color: #C5911E;
+     border-radius: 5px;
+     
+} 
+
+.cerrar{
+     border-radius: 5px;
+     display: inline-block;
+}
+.cerrar:hover{
+     background-color: #FF0000;
+     
+}
+
+thead{
+     background-color: #1C3D6C !important;
+     color: #fff;
+}
+#tabla{
+     font-size: 1.1rem;
+}
+.enlaces{
+     text-decoration: none;
+}
+.piePagina{
+     background-color: #1C3D6C !important;
+}
+.copyright{
+     background-color: #3B4042 !important;
+}
+.logo{
+     width: 75px;
+     height: 75px;
+}
+.docu{
+     font-size: 1.5rem !important;
+     color: #1C3D6C;
+     text-decoration: none;
+}
+.docu:hover{
+     color: #C5911E;
+}
+.tituloTabla{
+     font-size: 1.5rem !important;
+}
+
+
+
+.tabla {
+     width: 100%;
+     border-collapse: collapse;
+     }
+
+@media (max-width:960px){
+    
+     .menu li{
+          margin: 0 !important;
+          padding: 0 !important;
+          
+     }
+     
+}
+@media (max-width:768px){
+    
+     .imagen{
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .menu{
+          font-size: 1.5rem;
+     }
+         
+}
+
+@media (min-width:768px){
+     .ancho {
+          width: 450px;
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .elementos{
+          width: 100% !important;
+     }
+    
+}
+
+@media only screen and (max-width: 768px) {
+     
+     /* Hacer que la tabla ya no se vea como una tabla */
+     .tabla, .cabeceraTabla, .cuerpoTabla, .cabeceras, .fila, .columna{
+          display: block;
+     }
+
+     
+     /* Títulos de las columnas ocultos */
+     .cabeceraTabla tr {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+     }
+     
+     .cabeceras {
+          border-bottom: 1px rgb(56, 54, 54) solid;
+     }
+     /* los campos columnas se comportaran como filas */
+     .fila{
+          border: none;
+          position: relative;
+          padding-left: 100%;
+     }
+     
+     /* Se le agregan los títulos */
+     .fila:before {
+          position: absolute;
+           left: 1px;
+           padding-right: 5px;
+           white-space: nowrap;
+     }
+     
+     /* Agregar contenido a las filas. */
+     .fila:nth-of-type(1):before { content: "Nombre(s)"; }
+     .fila:nth-of-type(2):before { content: "Apellidos"; }
+     .fila:nth-of-type(3):before { content: "Tipo de Usuario"; }
+     .fila:nth-of-type(4):before { content: "Correo Institucional"; }
+     .fila:nth-of-type(5):before { content: "Acción"; }
+}
+
+
