@@ -48,6 +48,9 @@ $fecha = date('Y-m-d H:i:s');
                         <a class="nav-link text-white menu-item p-2 text-center" href="./administrador/docu.php">Documentación</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-white menu-item p-2 text-center" href="./administrador/facultades.php">Facultades</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-white menu-item p-2 text-center" href="#">Datos Conexión</a>
                     </li>
                     <li class="nav-item">

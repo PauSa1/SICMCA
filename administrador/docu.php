@@ -40,7 +40,7 @@ if(isset($_SESSION['login'])){
             <a class="nav-link text-white menu-item p-2 text-center" href="#">Documentación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white menu-item p-2 text-center" href="facultades.php">Facultad</a>
+            <a class="nav-link text-white menu-item p-2 text-center" href="facultades.php">Facultades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white menu-item p-2 text-center" href="../ip.php">Datos Conexión</a>

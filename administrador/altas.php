@@ -124,6 +124,9 @@ if(!empty($_POST["enviar"])) {
             <a class="nav-link text-white menu-item p-2 text-center" href="docu.php">Documentación</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link text-white menu-item p-2 text-center" href="facultades.php">Facultades</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-white menu-item p-2 text-center" href="../ip.php">Datos Conexión</a>
           </li>
           <li class="nav-item">
