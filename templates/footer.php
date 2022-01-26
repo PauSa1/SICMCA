@@ -26,8 +26,8 @@
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4 text-center">Portal</h6>
-                    <a href="https://www.tic.unam.mx/" title="logo DGTIC"><img src="https://www.tic.unam.mx/wp-content/uploads/2019/03/logo-dgtic-300x71.png" width="auto" height="auto" alt="logo DGTIC"></a>
-                    <a href="https://www.dgae.unam.mx/" title="logo DGAE"><img src="https://www.dgae.unam.mx/assets/images/escudo_dgae_completow.svg" class="logo" width="auto" height="auto" alt="logo DGAE"></a>
+                    <a href="https://www.tic.unam.mx/" title="logo DGTIC"><img src="https://www.tic.unam.mx/wp-content/uploads/2019/03/logo-dgtic-300x71.png"  width="auto" height="auto" alt="logo DGTIC"></a>
+                    <a href="https://www.dgae.unam.mx/" title="logo DGAE"><img src="https://www.dgae.unam.mx/assets/images/escudo_dgae_completow.svg" class="logo mt-3 mb-3" width="auto" height="auto" alt="logo DGAE"></a>
                 </div>
             </div>
         </div>

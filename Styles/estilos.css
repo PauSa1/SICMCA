@@ -51,8 +51,8 @@ thead{
      background-color: #3B4042 !important;
 }
 .logo{
-     width: 75px;
-     height: 75px;
+     width: 250px;
+     height: 80px;
 }
 .docu{
      font-size: 1.5rem !important;
@@ -66,15 +66,13 @@ thead{
      font-size: 1.5rem !important;
 }
 
-
-
 .tabla {
      width: 100%;
      border-collapse: collapse;
-     }
+}
 
-@media (max-width:960px){
-    
+
+@media (max-width:960px){    
      .menu li{
           margin: 0 !important;
           padding: 0 !important;
@@ -112,6 +110,7 @@ thead{
      .tabla, .cabeceraTabla, .cuerpoTabla, .cabeceras, .fila, .columna{
           display: block;
      }
+     
 
      
      /* Títulos de las columnas ocultos */
@@ -126,9 +125,10 @@ thead{
      }
      /* los campos columnas se comportaran como filas */
      .fila{
-          border: none;
+          border:none;
           position: relative;
           padding-left: 100%;
+         
      }
      
      /* Se le agregan los títulos */
@@ -140,11 +140,11 @@ thead{
      }
      
      /* Agregar contenido a las filas. */
-     .fila:nth-of-type(1):before { content: "Nombre(s)"; }
-     .fila:nth-of-type(2):before { content: "Apellidos"; }
-     .fila:nth-of-type(3):before { content: "Tipo de Usuario"; }
-     .fila:nth-of-type(4):before { content: "Correo Institucional"; }
-     .fila:nth-of-type(5):before { content: "Acción"; }
+     .fila:nth-of-type(1):before { content: "Nombre(s)";}
+     .fila:nth-of-type(2):before { content: "Apellidos";}
+     .fila:nth-of-type(3):before { content: "Tipo de Usuario";}
+     .fila:nth-of-type(4):before { content: "Correo Institucional";}
+     .fila:nth-of-type(5):before { content: "Acción";}
 }
 
 
