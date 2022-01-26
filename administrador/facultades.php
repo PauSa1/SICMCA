@@ -47,5 +47,6 @@
 
   
 </body>
+<h1>facultades</h1>
 <?php include('../templates/footer.php'); ?>
 </html>
